@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.Présentation {
+position: relative;
+background: rgba(176, 177, 224, 0.86);
+
+}
+nav {
+    display: inline-flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+   }
+     
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+   
+}
+
+.Images img{
+height: 100%;
+position: relative;
+left: 2%;
+bottom: 25%;
+}
+
+.grid-container {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: space-between;
+    text-align:center;
+    color: #da1c1c;
+    background-image: url(https://csap.gr/wp-content/uploads/2020/01/office-workplace-with-office-supplies-and-laptop-PEJY584_.jpg);
+  }
+  
+  .grid-item {
+    background-color:beige ;
+    padding: 20px 10px;
+    text-align: center;
+   justify-items: center;
+   padding: -20%;
+  color: #12111a;
+}
+h1{
+    color: #da1c1c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  @media screen and (max-width:700px) {
+    
+  }
+
+  #contact{
+	background-color: #f2f2f2;
+	padding: 30px;
+	border-radius: 10px;
+  }
+  
+  label {
+	display: block;
+	font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="submit"] {
+	padding: 10px;
+	border: none;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	width: 50%;
+	box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+	background-color: #352e72;
+	color: white;
+	cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #42ae48;
+  }
+footer{
+	text-align: center;
+    width: 100%;
+}
+
+
+
+ 
